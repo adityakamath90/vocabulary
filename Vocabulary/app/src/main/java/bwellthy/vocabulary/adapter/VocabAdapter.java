@@ -19,8 +19,8 @@ public class VocabAdapter extends RecyclerView.Adapter<VocabAdapter.VocabViewHol
     private List<VocabTable> mVocabList;
     private LayoutInflater mInflater;
 
-    public VocabAdapter(List<VocabTable> dealList, Context context) {
-        mVocabList = dealList;
+    public VocabAdapter(List<VocabTable> vocablList, Context context) {
+        mVocabList = vocablList;
         mInflater = LayoutInflater.from(context);
     }
 
